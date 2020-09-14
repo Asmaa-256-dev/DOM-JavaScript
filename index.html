@@ -7,19 +7,31 @@
     <title>DOM JavaScript</title>
 </head>
 <body>
-    
+   <div id="page_wrapper">
+    <header id="head">
+      <img src="images/الأهلي-1.jpg" alt="AHLY" id="img_container">
 
+    </header>
+    <main id="main__container">
+        <!---to do list-->
+       <div id="main-div" class="main">
+          <form action="" id="todo__form">
+            <label for="text">
+              <strong>
+                 Talk about AL AHLY :
+              </strong> 
+            </label>
+            <input type="text" id= "user_input">
+            <input type="submit" id="butt" style="color: #db661e;">
+          </form>
+          <div id="err__cont">
 
-
-
-
-
-
-
-
-
-
-
+          </div>
+          <div id="msg__cont">
+          </div>
+        </div>
+    </main>
+   </div>
     <script src="app.js"></script>
 </body>
 </html>
